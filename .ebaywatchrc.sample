@@ -1,0 +1,16 @@
+[ebay-api]
+appid  = ""
+siteid = ""
+
+[jabber]
+id             = ""
+my_resource    = "ebaywatcher"
+other_resource = ""
+passwd         = ""
+server         = "jabber.org"
+port           = 5222
+
+[general]
+seen_db_file       = "/tmp/ebaywatch"
+searchterms_file   = "/root/.ebaysearch"
+
