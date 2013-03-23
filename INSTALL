@@ -1,0 +1,19 @@
+First of all, to make use of this you need an ebay API developer key. Go and get one from Ebay. Its free.
+
+Read http://www.linux-magazin.de/Ausgaben/2004/01/E-Baywatcher/ for some background informations about what this is and what it is doing.
+
+Make shure the following perl modules are available:
+
+Config::Simple
+Net::Jabber
+DB_File
+Log::Log4perl
+eBay::API::Simple::Finding
+
+copy .ebaywatchrc.sample into your homedir, rename it to .ebaywatchrc and edit informations about your jabber account and your ebay developer key.
+
+copy .ebaysearch.sample into your homedir, rename it to .ebaysearch and set the path to this file inside of .ebaywatchrc
+
+put some search terms into your .ebaysearch, line by line.
+
+Have fun.

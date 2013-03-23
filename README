@@ -1,0 +1,9 @@
+For details about ebaywatch.pl visit
+
+http://www.linux-magazin.de/Ausgaben/2004/01/E-Baywatcher
+
+and
+
+ftp://www.linux-magazin.de/pub/listings/magazin/2004/01/Perl
+
+I changed the original ebaywatch in a way that it is using the Ebay API instead of using WWW::Search::Ebay
